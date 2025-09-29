@@ -20,10 +20,10 @@
   <p class="notice" id="notice"></p>
 <script>
 (async function(){
-  const owner = 'YaMac33';
+  const owner = 'yamac33';
   const repo = 'obsidian';
   const branch = 'main';
-  const api = `https://api.github.com/repos/${owner}/${repo}/contents?ref=${branch}`;
+  const api = `https://${owner}.github.io/${repo}/contents?ref=${branch}`;
 
   try {
     const res = await fetch(api);
